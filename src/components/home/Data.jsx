@@ -57,11 +57,11 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        As a passionate Computer Engineering student, I am deeply committed to
-        my field of study and always eager to expand my knowledge. With a strong
-        foundation in computer science and a love for problem-solving, I am
-        eager to begin my career in the industry I have always dreamed of
-        working in.
+        Hi there, I'm Ekin, a third-year computer engineering student with a
+        focus on web development. I'm interested in building full-stack
+        applications using modern technologies like JavaScript, React, and
+        Node.js. I enjoy working on web projects that challenge me and allow me
+        to develop my skills further.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

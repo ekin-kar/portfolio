@@ -14,8 +14,9 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I am actively seeking job opportunities to apply my skills and make
-            valuable contributions to a team.
+            Continual self-improvement brings me immense satisfaction,
+            especially when it comes to enhancing my skills and knowledge in the
+            field that I am passionate about.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
