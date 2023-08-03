@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+48 503 743 896</span>
+              <span className="contact__card-data">+90 531 461 25 16</span>
 
               <a href="https://wa.me/48503743896" className="contact__button">
                 Write me
