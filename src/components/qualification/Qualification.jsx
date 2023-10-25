@@ -83,7 +83,7 @@ const Qualification = () => {
                   Mugla Sitki Kocman University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2023
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Qualification = () => {
                   Warsaw University of Technology (Erasmus)
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> Feb 2023 - July 2023
                 </div>
               </div>
               <div>
@@ -116,11 +116,11 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Working hard to get a job
+                  Frontend Developer Intern
                 </h3>
-                <span className="qualification__subtitle">Poland</span>
+                <span className="qualification__subtitle">Mava Software</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 -
+                  <i className="uil uil-calendar-alt"></i> Jul 2023 - Oct 2023
                 </div>
               </div>
               <div>

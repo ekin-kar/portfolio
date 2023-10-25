@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        Hi there, I'm Ekin, a third-year computer engineering student with a
+        Hi there, I'm Ekin, a fourth-year computer engineering student with a
         focus on web development. I'm interested in building full-stack
         applications using modern technologies like JavaScript, React, and
         Node.js. I enjoy working on web projects that challenge me and allow me
