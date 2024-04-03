@@ -55,13 +55,13 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Web Developer</h3>
+      <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        Hi there, I'm Ekin, a fourth-year computer engineering student with a
-        focus on web development. I'm interested in building full-stack
-        applications using modern technologies like JavaScript, React, and
-        Node.js. I enjoy working on web projects that challenge me and allow me
-        to develop my skills further.
+        Hi there, I'm Ekin, I am a frontend developer with 8 months of
+        experience and a final-year computer engineering student. My primary
+        focus is on Next.js, React, and TailwindCSS. In addition to these
+        technologies, I am also familiar with Redux, Vue, MongoDB, and
+        Material-UI.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

@@ -28,10 +28,10 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">ekin1260@hotmail.com</span>
+              <span className="contact__card-data">info@ekinkar.com</span>
 
-              <a href="mailto:ekin1260@hotmail.com" className="contact__button">
-                Write me
+              <a href="mailto:info@ekinkar.com" className="contact__button">
+                Text me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
               </a>
             </div>
@@ -42,7 +42,7 @@ const Contact = () => {
               <span className="contact__card-data">+90 531 461 25 16</span>
 
               <a href="https://wa.me/48503743896" className="contact__button">
-                Write me
+                Text me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
               </a>
             </div>
@@ -53,7 +53,7 @@ const Contact = () => {
               <span className="contact__card-data">Ekin</span>
 
               <a href="https://m.me/ekiinkar" className="contact__button">
-                Write me
+                Text me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>{" "}
               </a>
             </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your message"
+                placeholder="write your message"
               ></textarea>
             </div>
             <button className="button button--flex">

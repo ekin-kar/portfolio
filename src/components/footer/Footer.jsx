@@ -55,7 +55,7 @@ const Footer = () => {
             <i className="bx bxl-instagram-alt"></i>
           </a>
         </div>
-        <span className="footer__copy">&#169; Ekin Kar</span>
+        <span className="footer__copy">&#169; ekinkar</span>
       </div>
     </footer>
   );

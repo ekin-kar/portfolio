@@ -14,9 +14,11 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Continual self-improvement brings me immense satisfaction,
-            especially when it comes to enhancing my skills and knowledge in the
-            field that I am passionate about.
+            I enjoy working on web projects that challenge me and allow me to
+            develop my skills further. I am a quick learner who is always eager
+            to learn new technologies and best practices and expand my knowledge
+            while pursuing my dream job. I can handle challenges on my own and
+            find solutions when needed.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV
