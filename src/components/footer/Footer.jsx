@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="https://github.com/EkinKar"
+            href="https://github.com/ekin-kar"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"

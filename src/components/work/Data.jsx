@@ -12,8 +12,8 @@ export const projectsData = [
     title: "EkoCinema",
     category: "full stack",
     screens:
-      "https://github.com/EkinKar/ekocinema?tab=readme-ov-file#screenshots",
-    code: "https://github.com/EkinKar/ekocinema",
+      "https://github.com/ekin-kar/ekocinema?tab=readme-ov-file#screenshots",
+    code: "https://github.com/ekin-kar/ekocinema",
   },
   {
     id: 6,
@@ -21,8 +21,8 @@ export const projectsData = [
     title: "EkoPortfolio",
     category: "full stack",
     screens:
-      "https://github.com/EkinKar/ekoPortfolio?tab=readme-ov-file#screenshots-from-the-app",
-    code: "https://github.com/EkinKar/ekoPortfolio",
+      "https://github.com/ekin-kar/ekoPortfolio?tab=readme-ov-file#screenshots-from-the-app",
+    code: "https://github.com/ekin-kar/ekoPortfolio",
   },
   {
     id: 1,
@@ -30,8 +30,8 @@ export const projectsData = [
     title: "Eko Trading Bot",
     category: "console base",
     screens:
-      "https://github.com/EkinKar/binanceTradeBot?tab=readme-ov-file#features",
-    code: "https://github.com/EkinKar/binanceTradeBot",
+      "https://github.com/ekin-kar/binanceTradeBot?tab=readme-ov-file#features",
+    code: "https://github.com/ekin-kar/binanceTradeBot",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const projectsData = [
     title: "Yelp Camp",
     category: "full stack",
     demo: "https://eko-yelp.onrender.com/",
-    code: "https://github.com/EkinKar/yelpCamp",
+    code: "https://github.com/ekin-kar/yelpCamp",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const projectsData = [
     title: "EkoBooking",
     category: "frontend",
     demo: "https://ekobooking.ekinkar.com/",
-    code: "https://github.com/EkinKar/ekoBooking",
+    code: "https://github.com/ekin-kar/ekoBooking",
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ export const projectsData = [
     title: "Shop Admin",
     category: "frontend",
     demo: "https://shopadmin.ekinkar.com/",
-    code: "https://github.com/EkinKar/shopAdmin",
+    code: "https://github.com/ekin-kar/shopAdmin",
   },
 ];
 
