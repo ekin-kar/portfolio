@@ -4,6 +4,7 @@ import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 import Work6 from "../../assets/work6.png";
+import Work7 from "../../assets/work7.png";
 
 export const projectsData = [
   {
@@ -14,6 +15,14 @@ export const projectsData = [
     screens:
       "https://github.com/ekin-kar/ekocinema?tab=readme-ov-file#screenshots",
     code: "https://github.com/ekin-kar/ekocinema",
+  },
+  {
+    id: 7,
+    image: Work7,
+    title: "EkoJobs",
+    category: "full stack",
+    demo: "https://eko-jobs.vercel.app/",
+    code: "https://github.com/ekin-kar/ekoJobs",
   },
   {
     id: 6,
