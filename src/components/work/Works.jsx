@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { projectsData, projectsNav } from "./Data";
-import WorkItems from "./WorkItems";
+import WorkItems from "./WorkItem";
+import { Link } from "react-router-dom";
 const Works = () => {
   const [item, setItem] = useState({ name: "all" });
   const [projects, setProjects] = useState([]);
@@ -40,9 +41,13 @@ const Works = () => {
         })}
       </div>
 
-      <div className="work__container container grid">
+      <div className="work__container container">
         {projects.map((item) => {
-          return <WorkItems item={item} key={item.id} />;
+          return (
+            <Link to={`/projects/${item.id}`} key={item.id}>
+              <WorkItems item={item} key={item.id} />
+            </Link>
+          );
         })}
       </div>
     </>

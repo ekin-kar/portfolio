@@ -21,7 +21,7 @@
 }
 
 .home__social-icon {
-  color: var(--title-color);
+  color: var(--bg);
 }
 
 .home__social-icon:hover {

@@ -1,21 +1,31 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
+  const [emailSent, setEmailSent] = useState(false); 
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_ker9zom",
-      "template_4sy6tbt",
-      form.current,
-      "U44kiKOthi6RAus_F"
-    );
+    emailjs
+      .sendForm(
+        "service_ker9zom",
+        "template_4sy6tbt",
+        form.current,
+        "U44kiKOthi6RAus_F"
+      )
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+        setEmailSent(true); 
+      })
+      .catch((error) => {
+        console.error("Email send error:", error);
+      });
     e.target.reset();
   };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -61,7 +71,6 @@ const Contact = () => {
         </div>
         <div className="contact__content">
           <h3 className="contact__title">Send me a message</h3>
-
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
@@ -91,7 +100,7 @@ const Contact = () => {
                 placeholder="write your message"
               ></textarea>
             </div>
-            <button className="button button--flex">
+            <button className="button button--flex mb-2">
               Send Message
               <svg
                 className="button__icon"
@@ -112,6 +121,7 @@ const Contact = () => {
               </svg>
             </button>
           </form>
+          {emailSent && <div> - Email sent successfully!</div>}
         </div>
       </div>
     </section>
