@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import {  useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
   const location = useLocation();
@@ -35,9 +35,9 @@ const Footer = () => {
             </li>
           </ul>
         ) : (
-          <a href="/" className="footer__home footer__link">
+          <Link to="/" className="footer__home footer__link">
             Back to Home
-          </a>
+          </Link>
         )}
         <div className="footer__social">
           <a

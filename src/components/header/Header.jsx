@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import CV from "../../assets/Kar_Ekin.pdf";
 
 const Header = () => {
@@ -142,10 +142,10 @@ const Header = () => {
           ) : (
             <ul className="nav__list grid">
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <Link to="/" className="nav__link">
                   <i className="uil uil-estate nav__icon"></i>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
                 <a download="" href={CV} className="nav__link">
@@ -163,9 +163,9 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="/contact" className="nav__link">
+                <Link to="/contact" className="nav__link">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           )}
