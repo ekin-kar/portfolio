@@ -45,6 +45,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub"
           >
             <i className="bx bxl-github"></i>
           </a>
@@ -53,6 +54,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <i className="bx bxl-linkedin"></i>
           </a>
@@ -61,6 +63,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
+            aria-label="Instagram"
           >
             <i className="bx bxl-instagram-alt"></i>
           </a>
