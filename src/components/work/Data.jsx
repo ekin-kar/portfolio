@@ -1,4 +1,5 @@
 //EkoCinema
+import cinema from "../../assets/EkoCinema/cinema.png";
 import cinema1 from "../../assets/EkoCinema/cinema1.png";
 import cinema2 from "../../assets/EkoCinema/cinema2.png";
 import cinema3 from "../../assets/EkoCinema/cinema3.png";
@@ -17,6 +18,7 @@ import portfolio1 from "../../assets/EkoPortfolio/portfolio1.png";
 import portfolio2 from "../../assets/EkoPortfolio/portfolio2.png";
 import portfolio3 from "../../assets/EkoPortfolio/portfolio3.png";
 //EkoTradingBot
+import bot from "../../assets/EkoBot/bot.png";
 import bot1 from "../../assets/EkoBot/bot1.png";
 import bot2 from "../../assets/EkoBot/bot2.png";
 //Yelp
@@ -37,7 +39,7 @@ import ejs from "../../assets/Techs/Ejs.svg";
 export const projectsData = [
   {
     id: 1,
-    image: cinema1,
+    image: cinema,
     title: "EkoCinema",
     category: "full stack",
     overview:
@@ -198,7 +200,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: bot1,
+    image: bot,
     title: "Eko Trading Bot",
     category: "console base",
     overview:
