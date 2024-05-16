@@ -1,11 +1,12 @@
 //EkoCinema
-import cinema from "../../assets/EkoCinema/cinema.png";
+import cinema from "../../assets/EkoCinema/cinema.webp";
 import cinema1 from "../../assets/EkoCinema/cinema1.png";
 import cinema2 from "../../assets/EkoCinema/cinema2.png";
 import cinema3 from "../../assets/EkoCinema/cinema3.png";
 import cinema4 from "../../assets/EkoCinema/cinema4.png";
 import cinema5 from "../../assets/EkoCinema/cinema5.png";
 //EkoJobs
+import jobs from "../../assets/EkoJobs/jobs.webp";
 import jobs1 from "../../assets/EkoJobs/jobs1.png";
 import jobs2 from "../../assets/EkoJobs/jobs2.png";
 import jobs3 from "../../assets/EkoJobs/jobs3.png";
@@ -14,14 +15,16 @@ import jobs5 from "../../assets/EkoJobs/jobs5.png";
 import jobs6 from "../../assets/EkoJobs/jobs6.png";
 import jobs7 from "../../assets/EkoJobs/jobs7.png";
 //EkoPortfolio
+import portfolio from "../../assets/EkoPortfolio/portfolio.webp";
 import portfolio1 from "../../assets/EkoPortfolio/portfolio1.png";
 import portfolio2 from "../../assets/EkoPortfolio/portfolio2.png";
 import portfolio3 from "../../assets/EkoPortfolio/portfolio3.png";
 //EkoTradingBot
-import bot from "../../assets/EkoBot/bot.png";
+import bot from "../../assets/EkoBot/bot.webp";
 import bot1 from "../../assets/EkoBot/bot1.png";
 import bot2 from "../../assets/EkoBot/bot2.png";
 //Yelp
+import yelp from "../../assets/Yelp/yelp.webp";
 import yelp1 from "../../assets/Yelp/yelp1.png";
 import yelp2 from "../../assets/Yelp/yelp2.png";
 import yelp3 from "../../assets/Yelp/yelp3.png";
@@ -88,7 +91,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: jobs1,
+    image: jobs,
     title: "EkoJobs",
     category: "full stack",
     overview:
@@ -146,7 +149,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: portfolio1,
+    image: portfolio,
     title: "EkoPortfolio",
     category: "full stack",
     overview:
@@ -245,7 +248,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    image: yelp1,
+    image: yelp,
     title: "Yelp Camp",
     category: "full stack",
     overview:
