@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "../components/home/Home";
-import About from "../components/about/About";
 import Skills from "../components/skills/Skills";
 import Qualification from "../components/qualification/Qualification";
 import Work from "../components/work/Work";
@@ -11,10 +10,9 @@ const HomePage = () => {
     <>
       <Layout>
         <Home />
-        <About />
         <Skills />
-        <Qualification />
         <Work />
+        <Qualification />
         <Contact />
       </Layout>
     </>

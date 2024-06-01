@@ -4,7 +4,7 @@ import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
-  const [emailSent, setEmailSent] = useState(false); 
+  const [emailSent, setEmailSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,7 +18,7 @@ const Contact = () => {
       )
       .then((response) => {
         console.log("Email sent successfully!", response);
-        setEmailSent(true); 
+        setEmailSent(true);
       })
       .catch((error) => {
         console.error("Email send error:", error);
@@ -78,7 +78,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="insert your name"
+                placeholder="write your name"
               />
             </div>
             <div className="contact__form-div">
@@ -87,7 +87,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="insert your email"
+                placeholder="write your email"
               />
             </div>
             <div className="contact__form-div contact__form-area">

@@ -115,6 +115,10 @@
   .nav__toggle {
     display: block;
   }
+
+  .nav__link {
+    color: black; /* Change link color to black for smaller screens */
+  }
 }
 
 .scroll-header {

@@ -29,6 +29,10 @@ import yelp1 from "../../assets/Yelp/yelp1.png";
 import yelp2 from "../../assets/Yelp/yelp2.png";
 import yelp3 from "../../assets/Yelp/yelp3.png";
 import yelp4 from "../../assets/Yelp/yelp4.png";
+//EkoDoc
+import doc1 from "../../assets/EkoDoc/doc1.webp";
+import doc2 from "../../assets/EkoDoc/doc2.webp";
+import doc3 from "../../assets/EkoDoc/doc3.webp";
 //Techs
 import next from "../../assets/Techs/NextJS-Dark.svg";
 import mongo from "../../assets/Techs/MongoDB.svg";
@@ -38,7 +42,7 @@ import nodejs from "../../assets/Techs/NodeJS-Dark.svg";
 import binance from "../../assets/Techs/Binance.svg";
 import express from "../../assets/Techs/ExpressJS-Dark.svg";
 import ejs from "../../assets/Techs/Ejs.svg";
-
+import tailwind from "../../assets/Techs/TailwindCSS-Dark.svg";
 export const projectsData = [
   {
     id: 1,
@@ -91,6 +95,55 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: doc1,
+    title: "EkoDoc",
+    category: "Frontend",
+    overview:
+      "EkoDoc is a portfolio web application developed using Next.js and Tailwind CSS. It is designed to showcase projects and provide a platform for users to manage and present their professional work effectively.",
+    pics: [doc1, doc2, doc3],
+    technologies: [
+      {
+        name: "Next.js",
+        image: next,
+        desc: "Next.js serves as the core framework, enabling server-side rendering and static site generation for a highly performant web application.",
+      },
+      {
+        name: "Tailwind CSS",
+        image: tailwind,
+        desc: "Tailwind CSS is used for styling the application, providing a utility-first CSS framework that allows for rapid UI development.",
+      },
+    ],
+    features: [
+      {
+        name: "Responsive Design",
+        desc: "EkoDoc features a fully responsive design, ensuring optimal user experience across all devices, including desktops, tablets, and mobile phones.",
+      },
+      {
+        name: "User-Friendly Interface",
+        desc: "The application boasts a user-friendly interface, making it easy for visitors to navigate through the doctor's profile, services, and other relevant information.",
+      },
+      {
+        name: "Contact Form",
+        desc: "EkoDoc includes a contact form, allowing patients to easily reach out to the doctor for appointments, inquiries, or consultations.",
+      },
+      {
+        name: "Professional Profile",
+        desc: "A dedicated professional profile page showcases the doctor's qualifications, experience, and other credentials to establish trust and credibility.",
+      },
+    ],
+    links: [
+      {
+        name: "Live Demo",
+        url: "https://eko-doctor-voi5.vercel.app/",
+      },
+      {
+        name: "Source Code",
+        url: "https://github.com/ekin-kar/eko-doctor",
+      },
+    ],
+  },
+  {
+    id: 3,
     image: jobs,
     title: "EkoJobs",
     category: "full stack",
@@ -148,7 +201,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: portfolio,
     title: "EkoPortfolio",
     category: "full stack",
@@ -202,7 +255,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: bot,
     title: "Eko Trading Bot",
     category: "console base",
@@ -247,7 +300,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: yelp,
     title: "Yelp Camp",
     category: "full stack",
