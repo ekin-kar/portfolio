@@ -36,9 +36,9 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="/" className="nav__logo">
+        <Link to="/" className="nav__logo">
           Ekin
-        </a>
+        </Link>
         <div className={showMenu ? "nav__menu show-menu" : "nav__menu"}>
           {isMainPage ? (
             <ul className="nav__list grid">
