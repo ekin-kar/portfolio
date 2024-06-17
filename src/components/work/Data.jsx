@@ -33,6 +33,12 @@ import yelp4 from "../../assets/Yelp/yelp4.png";
 import doc1 from "../../assets/EkoDoc/doc1.webp";
 import doc2 from "../../assets/EkoDoc/doc2.webp";
 import doc3 from "../../assets/EkoDoc/doc3.webp";
+// Car
+import car1 from "../../assets/RentACar/car1.webp";
+import car2 from "../../assets/RentACar/car2.webp";
+import car3 from "../../assets/RentACar/car3.webp";
+import car4 from "../../assets/RentACar/car4.webp";
+import car5 from "../../assets/RentACar/car5.webp";
 //Techs
 import next from "../../assets/Techs/NextJS-Dark.svg";
 import mongo from "../../assets/Techs/MongoDB.svg";
@@ -43,6 +49,7 @@ import binance from "../../assets/Techs/Binance.svg";
 import express from "../../assets/Techs/ExpressJS-Dark.svg";
 import ejs from "../../assets/Techs/Ejs.svg";
 import tailwind from "../../assets/Techs/TailwindCSS-Dark.svg";
+import vue from "../../assets/Techs/VueJS-Dark.svg";
 export const projectsData = [
   {
     id: 1,
@@ -144,6 +151,44 @@ export const projectsData = [
   },
   {
     id: 3,
+    image: car1,
+    title: "Rent A Car",
+    category: "frontend",
+    overview:
+      "Responsive car rental website design, demonstrating a seamless user experience and visually appealing interface.",
+    pics: [car1, car2, car3, car4, car5],
+
+    technologies: [
+      {
+        name: "Vue",
+        image: vue,
+        desc: "Vue.js is the JavaScript framework used to build the frontend of the application, providing a reactive and component-based structure for creating interactive user interfaces.",
+      },
+      {
+        name: "Tailwind CSS",
+        image: tailwind,
+        desc: "Tailwind CSS is the utility-first CSS framework utilized for styling the application, enabling rapid UI development and customization through utility classes.",
+      },
+    ],
+    features: [
+      {
+        name: "Responsive Design",
+        desc: "Rent A Car features a fully responsive design, ensuring optimal user experience across various devices, including desktops, tablets, and mobile phones.",
+      },
+    ],
+    links: [
+      {
+        name: "Live Demo",
+        url: "https://rentacar.ekinkar.com/",
+      },
+      {
+        name: "Source Code",
+        url: "https://github.com/ekin-kar/rent-a-car",
+      },
+    ],
+  },
+  {
+    id: 4,
     image: jobs,
     title: "EkoJobs",
     category: "full stack",
@@ -201,7 +246,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: portfolio,
     title: "EkoPortfolio",
     category: "full stack",
@@ -255,7 +300,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: bot,
     title: "Eko Trading Bot",
     category: "console base",
@@ -300,7 +345,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     image: yelp,
     title: "Yelp Camp",
     category: "full stack",
